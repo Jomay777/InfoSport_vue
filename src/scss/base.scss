@@ -1,0 +1,10 @@
+@import "./variables/colors-theme-primary.scss";
+@import "./variables/layout.scss";
+@import "./variables/paddings.scss";
+@import "./variables/typography.scss";
+
+body {
+    background-color: $color-white;
+    margin: 0;
+    padding: 0;
+}

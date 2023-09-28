@@ -1,0 +1,18 @@
+@import "../base.scss";
+.head{
+    margin: 0;
+    background-color: $color-primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 16px;
+    
+}
+.name h2{
+    text-align: center;
+    margin: 0;
+}
+.logo {
+    text-align: right;
+    margin-right: 6px;
+}

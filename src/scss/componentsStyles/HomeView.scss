@@ -1,0 +1,31 @@
+@import '../base.scss';
+.home-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.home-container h1{
+    color: $color-secondary;
+    text-align: center;
+    padding: 20px;
+}
+.home-container p{
+    padding: 10px;
+    color: $color-black;
+}
+.home-container .login-button , 
+.register-button {
+    font-family: $font-secondary;
+    background-color: $color-primary;
+    color: $color-white;
+    font-size: $font-size-small;
+    border-radius: 8px;
+    border: 2px solid $color-white;
+    padding: 7px;
+    text-decoration: none;
+}
+.login-button {
+    margin-bottom: 20px;
+}
